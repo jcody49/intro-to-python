@@ -28,3 +28,39 @@
        -  Python syntax and vocabulary
     -  how to take advantage of Python's symplicity and maintainability
     -  how to use the Django Unchained framework (I want to get as many of those under my belt for potential future employment)
+  
+
+### Exercise 2
+
+1. Imagine you’re having a conversation with a future colleague about whether to use the iPython
+Shell instead of Python’s default shell. What reasons would you give to explain the benefits of
+using the iPython Shell over the default one?
+
+  - I would recommend using the iPython Shell over the default one because it offers enhanced features like tab completion and syntax highlighting--it is a lot easier to see and increases efficiency.
+
+2. Python has a host of different data types that allow you to store and organize information. List 4
+examples of data types that Python recognizes, briefly define them, and indicate whether they are
+scalar or non-scalar.
+
+  - Tuples:
+    - Tuples are non-scalar data structures that are immutable and store multiple values of any type. They are used when there is a lot of data that pertains to one object.
+  - Lists:
+    - Lists are non-scalar data structures that are mutable and can store multiple values of any type. They are defined using square brackets and are used when dealing with collections of related data.
+  - Strings:
+    - Strings are immutable, non-scalar structures that are enclosed by quotes.
+  - Dictionaries:
+    - Dictionaries are mutable, non-scalar structures that are made up of unordered key-value pairs.
+
+3. A frequent question at job interviews for Python developers is: what is the difference between
+lists and tuples in Python? Write down how you would respond.
+  - Tuples are immutable, so they cannot be changed; whereas, lists are mutable and can be changed. Also, tuples use parentheses and lists use brackets.
+  
+4. In the task for this Exercise, you decided what you thought was the most suitable data structure
+for storing all the information for a recipe. Now, imagine you’re creating a language-learning app
+that helps users memorize vocabulary through flashcards. Users can input vocabulary words,
+definitions, and their category (noun, verb, etc.) into the flashcards. They can then quiz
+themselves by flipping through the flashcards. Think about the necessary data types and what
+would be the most suitable data structure for this language-learning app. Between tuples, lists,
+and dictionaries, which would you choose? Think about their respective advantages and
+limitations, and where flexibility might be useful if you were to continue developing the languagelearning app beyond vocabulary memorization.
+  - For a language-learning app with flashcards storing vocabulary words, definitions, and categories, I would choose dictionaries. Dictionaries offer a natural way to represent each flashcard, with keys for words, definitions, and categories. This choice provides flexibility for easy retrieval, updates, and expansion of information. Lists might be suitable for managing a sequence of flashcards, while tuples, being immutable, might limit modifications in a dynamic learning app.
