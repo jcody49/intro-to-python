@@ -64,3 +64,47 @@ would be the most suitable data structure for this language-learning app. Betwee
 and dictionaries, which would you choose? Think about their respective advantages and
 limitations, and where flexibility might be useful if you were to continue developing the languagelearning app beyond vocabulary memorization.
   - For a language-learning app with flashcards storing vocabulary words, definitions, and categories, I would choose dictionaries. Dictionaries offer a natural way to represent each flashcard, with keys for words, definitions, and categories. This choice provides flexibility for easy retrieval, updates, and expansion of information. Lists might be suitable for managing a sequence of flashcards, while tuples, being immutable, might limit modifications in a dynamic learning app.
+
+
+### Exercise 3
+
+1. In this Exercise, you learned how to use if-elif-else statements to run different tasks based on
+conditions that you define. Now practice that skill by writing a script for a simple travel app using
+an if-elif-else statement for the following situation:
+● The script should ask the user where they want to travel.
+● The user’s input should be checked for 3 different travel destinations that you define.
+● If the user’s input is one of those 3 destinations, the following statement should be
+printed: “Enjoy your stay in ______!”
+● If the user’s input is something other than the defined destinations, the following
+statement should be printed: “Oops, that destination is not currently available.”
+Write your script here. (Hint: remember what you learned about indents!)
+
+- [Link to travel_script](./travel_script.py)
+
+
+2. Imagine you’re at a job interview for a Python developer role. The interviewer says “Explain
+logical operators in Python”. Draft how you would respond.
+
+- Logical operators are used for compairsons using 'and', 'or', and 'not'. They help to create conditions and perform operations that adhere to certain conditions.
+
+  and: Returns True if both operands are True.
+  or: Returns True if at least one operand is True.
+  not: Returns True if the operand is False, and vice versa.
+
+
+3. What are functions in Python? When and why are they useful?
+
+- Functions are actions you can program within your code. Functions can perform a wide variety of tasks, and they are extremely helpful in that they can be reused throughout your app or website. 
+
+4. In the section for Exercise 1 in this Learning Journal, you were asked in question 3 to set some goals for yourself while you complete this course. In preparation for your next mentor call, make some notes on how you’ve progressed towards your goals so far.
+
+ - Here is what I wrote for my goals:
+    - What I want to learn:
+      -  the Python language in general for the simple fact that it is versatile and can be used with so many types of code.
+         -  Python syntax and vocabulary
+      -  how to take advantage of Python's symplicity and maintainability
+      -  how to use the Django Unchained framework (I want to get as many of those under my belt for potential future employment)
+
+    - My Reflection:
+      - I have made some progress on the Python language in general. I have learned about manipulating data in the forms of tuples, lists and dictionaries. I have learned how to use operators and construct algorithms for efficiently accomplishing small tasks. Also, I have learned how to define and call functions in Python. These have been my first steps into cementing Python's syntax and vocabulary. I still have a lot of learning ahead of me, so I don't think I can really take advantage of the simplicity and maintainability until I have learned more and see Python's bigger picture. Also, I believe we learn Django in Achievement 2? So, I won't know much about that until then.
+
