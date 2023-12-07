@@ -108,3 +108,34 @@ logical operators in Python”. Draft how you would respond.
     - My Reflection:
       - I have made some progress on the Python language in general. I have learned about manipulating data in the forms of tuples, lists and dictionaries. I have learned how to use operators and construct algorithms for efficiently accomplishing small tasks. Also, I have learned how to define and call functions in Python. These have been my first steps into cementing Python's syntax and vocabulary. I still have a lot of learning ahead of me, so I don't think I can really take advantage of the simplicity and maintainability until I have learned more and see Python's bigger picture. Also, I believe we learn Django in Achievement 2? So, I won't know much about that until then.
 
+
+### Exercise 4
+
+
+Reflection Questions
+
+1. Why is file storage important when you're using Python? What would happen if you didn't 
+store local files?
+
+  - File storage is important because the data will disappear at the end of execution if it isn't stored somewhere.
+  
+2. In this Exercise you learned about the pickling process with the pickle.dump() method.
+What are pickles? In which situations would you choose to use pickles and why?
+
+  - Pickles are used for storing complex data as a binary file of bytes, so pickles are ideal for dictionaries since they carry key-value pairs that aren't transferrable in their normal format. Pickles make it so that complex data can be transferred between files.
+  
+3. In Python, what function do you use to find out which directory you're currently in? What if you wanted to change your current working directory?
+   
+  - os.getcwd() will tell you your current working directory
+  - os.chdir(<path>) will change to another directory, taking the path of the directory you'd like to change to as an argument
+
+4. Imagine you're working on a Python script and are worried there may be an error in a block of code. How would you approach the situation to prevent the entire script from terminating due to an error?
+
+  - To comb for errors, you can use a try-except block. The programmer needs to put the code to be "tried" in the try block, and the potentially error-prone code should go in the except block, so that if an error occurred your script would identify it as well as still run.   
+
+5. You're now more than halfway through Achievement 1! Take a moment to reflect on your learning in the course so far. How is it going? What's something you're proud of so far? Is there something you're struggling with? What do you need more practice with? Feel free to use these notes to guide your next mentor call.
+   
+  - Python is going okay. It's dense. I'm working on my javascript algorithm skills as well, and I am seeing all of these ways I can solve the same problems I have solved with javascript, but with Python. For instance, I just learned how to split a string and reverse it with Javascript--I can definitely do that with Python as well. There are a few algorithm problems on freecodecamp that I now know how to solve with Python. I am, struggling with file storage--1.4 was ROUGH! I don't fully understand how I got everything to work. I wish there were more visuals to go along with the exercise at the end. I felt extremely in the dark, and I desperately needed to enlist the help of the examples and Google. I do feel like I'm picking this up a little better and more thoroughly than I did Javascript, so it has been good to feel that comfort. One exception to that , however... There are a lot of striking similarities between Python and JS... I think it helps me to grasp new concepts with Python; however, at the same time, I think it might cause extra confusion sometimes because they are so alike in so many ways, but they look SO different! Can't tell you how many times I go to write "let ="... There's a strong mixture of confusion, but also empowerment that I have experienced since I have begun my Python journey. 
+  
+  I need more practice with...
+  ALL OF IT!!!

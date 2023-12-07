@@ -21,7 +21,7 @@ for i in range(n):          #runs n times
     for ingredient in recipe['ingredients']:        # for loop iterates over each ingredient in the ingredients list
         
         # checks if ingredient is already present in list and appends it to the list if it is not already present
-        if not ingredient in ingredients_list:       
+        if ingredient not in ingredients_list:       
             ingredients_list.append(ingredient)
     recipes_list.append(recipe) 
     
