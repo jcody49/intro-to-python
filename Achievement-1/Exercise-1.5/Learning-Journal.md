@@ -112,7 +112,7 @@ logical operators in Python”. Draft how you would respond.
 ### Exercise 4
 
 
-Reflection Questions
+#### Reflection Questions
 
 1. Why is file storage important when you're using Python? What would happen if you didn't 
 store local files?
@@ -139,3 +139,38 @@ What are pickles? In which situations would you choose to use pickles and why?
   
   I need more practice with...
   ALL OF IT!!!
+
+
+
+### Exercise 5
+
+#### Reflection Questions
+
+1.	In your own words, what is object-oriented programming? What are the benefits of OOP?
+    
+  - In Python, Object-Oriented Programming (OOP) uses classes to make objects. Classes act as templates. Each object can be defined with different attributes and functionalities. This approach simplifies software development by structuring code into elements that are reusable and easy to maintain.
+
+
+
+2.	What are objects and classes in Python? Come up with a real-world example to illustrate how objects and classes work.
+  - In Python, classes are like blueprints that define how to create objects. Objects, on the other hand, are instances of these classes, representing specific things with unique attributes and behaviors.
+
+  - A real world example could be the class: "Animal". Each object you design with that class would represent a different animal. You could program them to have different attributes such as sounds, vertibrate, eating habits, etc.
+  
+
+3.	In your own words, write brief explanations of the following OOP concepts; 100 to 200 words per method is fine. 
+
+Method	Description
+
+Inheritance:
+  - Inheritance is when you have a child class that inherits all of the attributes and functionalities that furnish its parent class.
+
+
+Polymorphism:
+
+  - Polymorphism is when you have a method or function that can perform differently with different objects. The '+' operator is an example because it can concatenate strings as well as add numbers.
+
+
+Operator Overloading:
+
+ - Operator overloading allows you to program custom behaviors with the different operators. By overloading operators, you can specify the actions performed when these operators are used with different class objects.
