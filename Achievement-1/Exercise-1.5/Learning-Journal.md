@@ -174,3 +174,28 @@ Polymorphism:
 Operator Overloading:
 
  - Operator overloading allows you to program custom behaviors with the different operators. By overloading operators, you can specify the actions performed when these operators are used with different class objects.
+
+
+
+### Exercise 6
+
+#### Reflection Questions
+
+1.	What are databases and what are the advantages of using them?
+  -	Databases are essentially organized, electronic filing systems for information. They help keep data neat, make it easy to find, and ensure it's accurate. Users can perform queries on databases to retrieve specific information and perform various operations with the stored data. Databases act as digital organizers, making it easier and more efficient to manage and interact with information.
+
+2.	List 3 data types that can be used in MySQL and describe them briefly:
+
+  - DATE: Used for storing dates in the format 'YYYY-MM-DD'.
+  - INT: Stands for Integer. It is used to store whole numbers without any decimal points.
+  - VARCHAR: Stands for Variable Character. It is a variable-length string data type that can store alphanumeric characters. A maximum length is specified at the end in brackets [].
+
+
+3.	 In what situations would SQLite be a better choice than MySQL?
+    - Use SQLite for small-scale projects due to its simplicity and that it is self-contained within a program, not requiring a separate server process. MySQL is better for larger projects requiring a robust client-server database setup.
+
+4.	Think back to what you learned in the Immersion course. What do you think about the differences between JavaScript and Python as programming languages?
+  - To my understanding, JavaScript is mainly used for web development, which allows for interactive and dynamic content on the client side. It works well HTML and CSS, and it is great for building web apps. Python, on the other hand, seems like it can be used for more types of projects, such as building websites, analyzing data, and automating tasks. Python is still pretty new to me, so this is a hard question to answer. I used JS on several projects and am much more experienced with it; I'm still learning the basics of Python, so I can only answer this question generally. Once I actually start building out the recipe app a bit more, I will be able to compare a lot more accurately.
+
+5.	Now that you’re nearly at the end of Achievement 1, consider what you know about Python so far. What would you say are the limitations of Python as a programming language?
+  - In my limited experience with Python, I have learned that Python is an interpreted language, which makes it slower. Python is not as friendly for mobile development. It uses up a lot of memory.
