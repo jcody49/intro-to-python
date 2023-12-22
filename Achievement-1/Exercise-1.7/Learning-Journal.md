@@ -199,3 +199,55 @@ Operator Overloading:
 
 5.	Now that you’re nearly at the end of Achievement 1, consider what you know about Python so far. What would you say are the limitations of Python as a programming language?
   - In my limited experience with Python, I have learned that Python is an interpreted language, which makes it slower. Python is not as friendly for mobile development. It uses up a lot of memory.
+
+
+
+
+
+### Exercise 7
+
+#### Reflection Questions
+
+
+1. What is an Object Relational Mapper and what are the advantages of using one?
+
+  - An ORM converts the contents and structure of your database into classes and objects that can be interacted with directly It reduces the amount of code for making queries on a database considerably.
+
+2. By this point, you’ve finished creating your Recipe app. How did it go? What’s something in the app that you did well with? If you were to start over, what’s something about your app that you would change or improve?
+   
+  - The app was good--pretty difficult. I wish the exercises were broken down a little more. The reading is dense and there is so much of it, and then the exercises at the end are so robust. It's just a lot for one section--I personally, could have benefitted from making the exercises smaller, so the content is easier to digest. I feel like I learned a lot, and I feel decently competent; however, I also feel like I learned just enough with certain concepts due to the rapid nature of this course. I definitely had to go through a lot of extra lengths to understand the code I needed to implement, which isn't a bad thing, but it just shows I'm not quite confident in my Python skills just yet. I drew heavily on Google and the sample work, I had to go back and re-read everything several times, and I had to comment my understanding on just about every nook and cranny of all of my code... It's overall fine, and I think the confidence will come more and more as I learn throughout the next achievement.
+
+
+
+3. Imagine you’re at a job interview. You’re asked what experience you have creating an app using Python. Taking your work for this Achievement as an example, draft how you would respond to this question. 
+  
+  - I recently developed a command-line Recipe app in Python, leveraging SQLAlchemy for database management. Within the project, I worked with all kinds of data types: strings, lists, tuples, integers, dictionaries, functions, and loops. I used object-oriented programming to build classes that served as blueprints. The app features a Recipe class with some basic attributes: name,cooking time, ingredients, and difficulty. I built a menu that loops until the user wants to exit. The cli boasts functionalities for creating, viewing, searching, editing, and deleting recipes from the sql database. The menu provides a user-friendly interface. Additionally, I have grown adept with testing Python code with ipython. In short, the project has not only showcased my proficiency in Python and database management, but has also emphasized error handling for a robust user experience. 
+  
+  
+
+4. You’ve finished Achievement 1! Before moving on to Achievement 2, take a moment to reflect on
+your learning in the course so far:
+
+  a. What went well during this Achievement?
+
+   - For this achievement, I think I was able to pay attention to new vocabulary better. With that, I think I did a better job of slowing down my learning. With some of the previous courses and Achievements, I definitely got ahead of myself a few times--sometimes skimming sections that I didn't necessarily think were as important at the time, and then lo and behold, I'd get pretty confused with the tasks at the end and not even understand why. I also think when I start to get tired, my mind wanders while I'm reading more complicated content, which I don't always catch--this time around, I really forced myself to take notes during those times, to keep my mind active as I'm reading. That, and I'm better at taking small breaks.
+
+  b. What’s something you’re proud of?
+
+   - I'm proud that I was able to learn so much and not have to ask as many questions as I did before (which I'm certainly not afraid to do). I think my grasp on code in general from my previous learning served me quite well, and I wasn't really getting stuck. Definitely had some hiccups and some speed bumps, but I didn't really get stuck much.
+
+  c. What was the most challenging aspect of this Achievement?
+
+   - The most challenging apect of this achievement was getting enough time to learn in detail. In some cases, I barely got my app to work and didn't totally understand why. I understood everything in isolation, but when everything started to come together, and you needed to start troubleshooting. I, personally, wish there were more mini-exercises that combined skills and that the course were broken down a little bit more. The assignments felt like a slog--just kind of a lot to take in as your learning for the first time.
+
+  d. Did this Achievement meet your expectations? Did it give you the confidence to start
+  working with your new Python skills?
+
+   - I would say, yes, more or less. Again, some more practice would have been nice, but I think there are plenty of free practice work at freecodecamp, so I think that should work out just fine. Other than that, yes, I'm glad to have gotten my app working pretty well and that it is pretty thoroughly commented. Also, the review of SQL was nice.
+
+  e. What’s something you want to keep in mind to help you do your best in Achievement 2?
+
+   - Keep commenting. Just keep breaking things down into digestable chunks and comment to solidify understanding as well as provide myself with notes for the next time I sit down with the code.
+
+
+
