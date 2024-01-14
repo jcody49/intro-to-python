@@ -73,3 +73,17 @@ web application development.
   - The admin site includes features for user authentication and authorization. Superusers have full access to all functionalities, while other users can be assigned specific permissions to restrict their access.
   - Filtering, sorting, and searching functionalities are available, making it easy to find specific records.
   - The admin site keeps track of changes made to records, providing a history of edits. This is valuable for auditing and tracking modifications to the data.
+
+
+
+### Exercise 3
+
+
+
+1. Do some research on Django models. In your own words, write down how Django models work and what their benefits are.
+
+  - Django models are templates a developer defines to organize and modularize data so that it can be stored in a consistent format within your database. It keeps your data tidy, and it helps you to enforce data validation by requiring an exact type of value for each attribute. Another benefit is that Django automatically creates a table when you define and register a model. Last, Django's ORM system allows you to interact with the database using Python objects, making it more intuitive and reducing the need for direct SQL queries.
+   
+2. In your own words, explain why it is crucial to write test cases from the beginning of a project. You can take an example project to explain your answer.
+
+  - It is crucial to write test cases for your project from the start for a variety of reasons. First, it helps catch bugs efficiently and early on in the development process. Additionally, tests provide documentation for your project. Also, when features are added to the code, tests will catch potentially code-breaking bugs. For example, in a web application project, if a developer adds a new form for user registration, having test cases from the start allows them to verify that the registration process works as intended and doesn't cause errors in other parts of the application.
